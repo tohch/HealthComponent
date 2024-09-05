@@ -10,14 +10,16 @@ namespace HealthComponent
         [SerializeField] private int _health;
         [SerializeField] private bool _immun;
         [SerializeField] private UnityEvent _doAfterModifyneHealth;
-<<<<<<< HEAD
         [SerializeField] private int _def;
+<<<<<<< HEAD
 <<<<<<< HEAD
         [SerializeField] private int _crid;
 =======
 =======
 >>>>>>> 174bbaa (add modefinehealth)
 >>>>>>> 3556b16 (add modefinehealth)
+=======
+>>>>>>> 05cb9fa (df)
 
 
         public int Health => _health;
