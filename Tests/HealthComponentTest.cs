@@ -42,4 +42,16 @@ public class HealthComponentTest
 
         Assert.AreEqual(expectedHP, _health.Health);
     }
+
+    [Test]
+    public void ModifyneHealthMinus2MustMinus1()
+    {
+        var startHP = _health.Health;
+        int delta = -2;
+        int expectedHP = startHP + delta;
+
+        _health.ModifyneHealth(delta);
+
+        Assert.AreEqual(expectedHP, _health.Health);
+    }
 }
