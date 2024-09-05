@@ -12,6 +12,7 @@ namespace HealthComponent
         [SerializeField] private int _def;
         [SerializeField] private int _crid;
 
+
         public int Health => _health;
 
         public void ModifyneHealth(int delta)
