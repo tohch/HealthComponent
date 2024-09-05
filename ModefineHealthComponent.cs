@@ -8,12 +8,15 @@ namespace HealthComponent
     {
         [SerializeField] private int _health;
         [SerializeField] private bool _immun;
+        [SerializeFiled] private UnityEvent _doAfterModifyneHealth;
 
         public int Health => _health;
 
         public void ModifyneHealth(int delta)
         {
             _health += delta;
+
+            _doAfterModifyneHealth?.Invoke();
         }
     }
 }
