@@ -10,12 +10,6 @@ namespace HealthComponent
         [SerializeField] private int _health;
         [SerializeField] private bool _immun;
         [SerializeField] private UnityEvent _doAfterModifyneHealth;
-        [SerializeField] private int _def;
-        [SerializeField] private int _crid;
-        [SerializeField] private int _crid2;
-        [SerializeField] private int _crid3;
-        [SerializeField] private int _crid4a;
-        [SerializeField] private int _crid5;
 
 
         public int Health => _health;
