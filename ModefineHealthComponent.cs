@@ -7,7 +7,7 @@ namespace HealthComponent
 {
     public class ModefineHealthComponent : MonoBehaviour
     {
-        [SerializeField] private int _health;
+        [SerializeField] private int _health = 1;
         [SerializeField] private bool _immun;
         [SerializeField] private UnityEvent _doAfterModifyneHealth;
 
