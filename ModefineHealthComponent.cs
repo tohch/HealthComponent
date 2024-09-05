@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace HealthComponent
 {
@@ -9,8 +10,14 @@ namespace HealthComponent
         [SerializeField] private int _health;
         [SerializeField] private bool _immun;
         [SerializeField] private UnityEvent _doAfterModifyneHealth;
+<<<<<<< HEAD
         [SerializeField] private int _def;
+<<<<<<< HEAD
         [SerializeField] private int _crid;
+=======
+=======
+>>>>>>> 174bbaa (add modefinehealth)
+>>>>>>> 3556b16 (add modefinehealth)
 
 
         public int Health => _health;
